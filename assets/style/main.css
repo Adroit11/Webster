@@ -3,9 +3,6 @@ h3 {
 }
 
 h1 {
-    color: pink;
+    color: blue;
     display: flex;
-}
-span {
-    color: purple;
 }
