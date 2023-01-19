@@ -1,8 +1,41 @@
-h3 {
-    color: red;
+h1 {
+    color : seagreen;
 }
 
-h1 {
-    color: blue;
-    display: flex;
+/* CSS selector, to use css selectors, their are two types
+1- using the ID, this uses the # then the name given as id in the html file followed by braces and then your properties e.g #header{ properties}
+2- Using class, this uses . then the name supplied in the html file followed by the braces and then properties. e.g .header {properties} 
+*/
+#header {
+    color: #0000ff;
+}
+
+#header2 {
+    color: #ff0000;
+}
+
+/* Example of selectors using class */
+.green {
+    color : #00FF00;
+}
+
+.red {
+    color: #ff0000;
+}
+
+.text {
+    font-size : 100px;
+    font-weight: 20px;
+}
+
+ul > li {
+    color : #893221;
+}
+
+div > h1 {
+    color: brown;
+}
+
+div > span > h1 {
+    color: purple;
 }
