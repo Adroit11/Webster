@@ -1,41 +1,50 @@
-h1 {
-    color : seagreen;
+/* Identity in CSS is uniquely identify an element, we have two types
+
+1- using ID, and to use the ID we use #
+2- using class, to use the class we adopt using a dot (.)*/
+
+ul {
+    list-style: none;
+    float: right;
 }
 
-/* CSS selector, to use css selectors, their are two types
-1- using the ID, this uses the # then the name given as id in the html file followed by braces and then your properties e.g #header{ properties}
-2- Using class, this uses . then the name supplied in the html file followed by the braces and then properties. e.g .header {properties} 
-*/
-#header {
-    color: #0000ff;
-}
-
-#header2 {
-    color: #ff0000;
-}
-
-/* Example of selectors using class */
-.green {
-    color : #00FF00;
-}
-
-.red {
-    color: #ff0000;
-}
-
-.text {
-    font-size : 100px;
-    font-weight: 20px;
-}
-
+/* Using > is trying to navigate to the exact element to use the style while using class and id is identifying the set of elements to use that styles */
 ul > li {
-    color : #893221;
+    display: inline;
 }
 
-div > h1 {
-    color: brown;
+ul > li > a {
+    text-decoration: none;
+    color: black;
 }
 
-div > span > h1 {
-    color: purple;
+ul > li > a:hover {
+    text-decoration: underline;
 }
+
+.links {
+    text-decoration: none;
+    color: #222;
+    /* Using Spacings and Margins in CSS, to give margin in css we adopt the property called margin while we use padding for inner spaces */
+    /* margin-top: 10px;
+    margin-right: 10px; */
+    margin: 10px 10px 0 0;
+    padding: 5px;
+}
+
+.banner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 10px 0;
+    padding: 10px;
+}
+
+input {
+    height: 30px;
+    border-radius: 10px;
+}
+
+
+
+
