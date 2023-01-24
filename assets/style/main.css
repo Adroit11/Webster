@@ -1,90 +1,28 @@
-/* Identity in CSS is uniquely identify an element, we have two types
-
-1- using ID, and to use the ID we use #
-2- using class, to use the class we adopt using a dot (.)*/
-
-ul {
-    list-style: none;
-    float: right;
-}
-
-/* Using > is trying to navigate to the exact element to use the style while using class and id is identifying the set of elements to use that styles */
-ul > li {
-    display: inline;
-}
-
-ul > li > a {
-    text-decoration: none;
-    color: black;
-}
-
-ul > li > a:hover {
-    text-decoration: underline;
-}
-
-.links {
-    text-decoration: none;
-    color: #222;
-    /* Using Spacings and Margins in CSS, to give margin in css we adopt the property called margin while we use padding for inner spaces */
-    /* margin-top: 10px;
-    margin-right: 10px; */
-    margin: 10px 10px 0 0;
-    padding: 5px;
-}
-
-.banner {
-    width: 100%;
+/* Flex box*/
+/* Flex box is a box model for positioning elements/divs in a responsive way in web development */
+.flag-container {
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    margin: 10px 0 10px 0;
-    padding: 10px;
-}
-
-input {
-    height: 30px;
-    border-radius: 10px;
-}
-
-/* Monday 23-0102023 */
-/* CSS Text formatting */
-p {
-    /* Text-align is used to move a text into a position in css*/
-    text-align: center;
-
-    /* Font is used to format a text in css */
-    font-family: Verdana;
-    font-size: 2rem;
-    font-weight: bolder;
-    font-style: italic;
-}
-
-i {
-    clear: both;
-}
-em {
-    clear: both;
-}
-.hen {
-    border: 1px solid red;
-    width: 150px;
-    height: 150px;
-    float: right;
-    padding: 40px;
-}
-
-.dog {
-    border: 1px solid green;
-    width: 350px;
-    padding: 40px;
-}
-
-.bottom {
+    align-items: center;
     width: 100%;
-    height: 150px;
-    background-color: seagreen;
-    padding: 20px;
+    height: 100vh;
+}
+.green1 {
+    border: 1px solid #ff0000;
+        width: 15%;
+        height: 50vh;
+        background-color: #0000ff;
+}
+.green {
+    border: 1px solid #ff0000;
+    width: 15%;
+    height: 50vh;
+    background-color: #00ff00;
 }
 
-
-
-
+.white {
+    border: 1px solid #ff0000;
+        width: 15%;
+        height: 50vh;
+}
